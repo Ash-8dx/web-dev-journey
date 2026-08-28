@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        input{
+            display: block;
+            height: 30px;
+            margin-bottom: 10px;
+            width: 200px;
+        }
+       #request-button, #schedule-button{
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="div">
+        <p>request a ride now</p>
+        <input type="text" name="location" placeholder="Enter pickup location">
+        <input type="text" name="destination" placeholder="Enter destination">
+    </div>
+    <button id="request-button">Request Ride</button>
+    <button id="schedule-button">schedule for later</button>
+</body>
+</html>

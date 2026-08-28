@@ -1,0 +1,41 @@
+.titles{
+    font-family: Arial;
+    font-weight: bold;
+    width: 300px;
+    margin-bottom: 5px;
+}
+#video-stats{
+    font-family: Arial;
+    margin-top: 0px;
+    font-size:9px;
+    color:rgb(31, 31, 31);
+}
+#name{
+    font-family: Arial;
+    margin-top: 0px;
+    font-size:9px;
+    color:rgb(31, 30, 30);
+}
+#description{
+    font-family: Arial;
+    margin-top: 0px;
+    font-size:9px;
+    color:rgb(34, 34, 34);
+    width: 175px;
+}
+#text{
+    font-family: Arial;
+    margin-right: max-content;
+    margin-left: max-content;
+    background-color: rgb(148, 2, 2);
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#shop-now:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
